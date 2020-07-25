@@ -1,0 +1,29 @@
+package main
+
+import (
+	"fmt"
+
+	. "github.com/iotaledger/iota.go/api"
+)
+
+var node = "http://51.195.42.72:5000"
+
+func main() {
+	// Create a new instance of the IOTA API object
+	// and specify which node to connect to
+	api, err := ComposeAPI(HTTPClientSettings{URI: node})
+	must(err)
+
+	// Call the `getNodeInfo()` method for information about the IOTA node and the Tangle
+	nodeInfo, err := api.GetNodeInfo()
+	must(err)
+
+	fmt.Println(nodeInfo)
+
+}
+
+func must(err error) {
+	if err != nil {
+		panic(err)
+	}
+}
