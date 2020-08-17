@@ -117,3 +117,7 @@ dist
 
 # Config
 config.js
+
+# Snapshots
+
+snapshots/
