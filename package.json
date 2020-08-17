@@ -1,0 +1,66 @@
+{
+  "name": "ukuli-tietomeri-iota",
+  "version": "1.0.0",
+  "description": "IOTA for Ukuli Data Tietomeri.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ukuli-Data/Ukuli-Tietomeri-IOTA.git"
+  },
+  "keywords": [
+    "IOTA",
+    "Internet",
+    "of",
+    "Things",
+    "cryptocurrency"
+  ],
+  "author": "Tomi Toivio",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Ukuli-Data/Ukuli-Tietomeri-IOTA/issues"
+  },
+  "homepage": "https://github.com/Ukuli-Data/Ukuli-Tietomeri-IOTA#readme",
+  "dependencies": {
+    "@iota/account": "^1.0.0-beta.30",
+    "@iota/area-codes": "^0.1.1",
+    "@iota/async-buffer": "^1.0.0-beta.30",
+    "@iota/bundle": "^1.0.0-beta.30",
+    "@iota/bundle-validator": "^1.0.0-beta.30",
+    "@iota/cda": "^1.0.0-beta.30",
+    "@iota/checksum": "^1.0.0-beta.30",
+    "@iota/client-load-balancer": "^1.0.1",
+    "@iota/converter": "^1.0.0-beta.30",
+    "@iota/core": "^1.0.0-beta.30",
+    "@iota/curl": "^1.0.0-beta.19",
+    "@iota/curl-remote": "0.0.3",
+    "@iota/extract-json": "^1.0.0-beta.30",
+    "@iota/gh-tangle-release": "^0.7.0",
+    "@iota/http-client": "^1.0.0-beta.30",
+    "@iota/industry_4.0_language": "^1.0.6",
+    "@iota/iota-rs-wasm": "^1.0.0-alpha.4",
+    "@iota/kerl": "^1.0.0-beta.30",
+    "@iota/mam": "^0.7.3",
+    "@iota/mam.js": "^1.0.0-beta.9",
+    "@iota/multisig": "^1.0.0-beta.30",
+    "@iota/pad": "^1.0.0-beta.30",
+    "@iota/pearl-diver-react-native": "^1.0.0-beta.30",
+    "@iota/persistence": "^1.0.0-beta.30",
+    "@iota/persistence-adapter-level": "^1.0.0-beta.30",
+    "@iota/poex-tool": "^1.2.0",
+    "@iota/powbox.patch": "0.0.2",
+    "@iota/samples": "^1.0.0-beta.12",
+    "@iota/signing": "^1.0.0-beta.30",
+    "@iota/transaction": "^1.0.0-beta.30",
+    "@iota/transaction-converter": "^1.0.0-beta.30",
+    "@iota/unit-converter": "^1.0.0-beta.30",
+    "@iota/validators": "^1.0.0-beta.30",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "react": "^16.13.1",
+    "react-native": "^0.63.2",
+    "socket.io": "^2.3.0"
+  }
+}
