@@ -6,3 +6,5 @@ ufw allow 15600
 ufw allow 14265
 ufw allow 8081
 ufw allow 1974
+ufw allow 443
+ufw allow 80
