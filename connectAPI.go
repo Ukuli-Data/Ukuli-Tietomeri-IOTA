@@ -15,7 +15,6 @@ func main() {
 
 	nodeInfo, err := api.GetNodeInfo()
 	must(err)
-	fmt.Println("latest milestone index:", nodeInfo)
 
 	fmt.Println("latest milestone index:", nodeInfo.LatestMilestoneIndex)
 }
