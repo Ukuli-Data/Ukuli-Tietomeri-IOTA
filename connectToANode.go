@@ -6,7 +6,7 @@ import (
 	. "github.com/iotaledger/iota.go/api"
 )
 
-var node = "https://nodes.devnet.iota.org:443"
+var node = ""
 
 func main() {
 	// Create a new instance of the IOTA API object
