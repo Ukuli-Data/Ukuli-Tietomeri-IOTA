@@ -1,0 +1,8 @@
+ufw allow 9311
+ufw allow 6060
+ufw allow 5556
+ufw allow 14626
+ufw allow 15600
+ufw allow 14265
+ufw allow 8081
+ufw allow 1974
